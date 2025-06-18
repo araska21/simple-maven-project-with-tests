@@ -1,4 +1,4 @@
-node ('master') {
+node ('Built-In Node') {
   checkout scm
   stage('Build') {
     withMaven(maven: 'M3') {
