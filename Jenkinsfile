@@ -1,4 +1,4 @@
-node ('Built-In Node') {
+node ('agent-1') {
   checkout scm
   stage('Build') {
     withMaven(maven: 'M3') {
